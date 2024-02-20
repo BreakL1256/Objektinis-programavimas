@@ -187,11 +187,11 @@ while(true){
         M.erase(M.begin());
     }
 
-    if(vektoriausIlgiotikrinimas != 0){
+    if(vektoriausIlgiotikrinimas >1){
         cout<<"Prie pazymiu galima vesti tik skaicius!\n";
     }
 
-    if(indeksas != 0 && err == 0 && vektoriausIlgiotikrinimas == 0){
+    if(indeksas != 0 && err == 0 && vektoriausIlgiotikrinimas < 2){
         int vidurkioTipas = 0;
         cout<<"Pasirinkite kokiu budu noretumete, kad butu suskaiciuotas jus vidurkis (1 = paprastai, 2 = mediana):\n";
         cin>>vidurkioTipas;
